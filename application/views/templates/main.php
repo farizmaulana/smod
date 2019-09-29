@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <?php $this->load->view('templates/meta.php') ?>
 
-<body class="hold-transition skin-blue fixed sidebar-mini">
+<body class="hold-transition skin-yellow fixed sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
 <?php $this->load->view('templates/header.php') ?>
@@ -16,13 +16,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Blank page
-        <small>it all starts here</small>
+        <?php echo $pageTitle ?>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Examples</a></li>
-        <li class="active">Blank page</li>
+        <li><a href="dashboard"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active"><?php echo $pageTitle ?></li>
       </ol>
     </section>
     <!-- Main content -->

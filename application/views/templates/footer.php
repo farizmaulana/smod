@@ -1,8 +1,7 @@
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 2.4.18
+      <a href="http://www.pln.co.id">PT. PLN (Persero)</a> UP3 Purwakarta ULP Plered
     </div>
-    <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE</a>.</strong> All rights
-    reserved.
-  </footer>
+    Copyright &copy; 2019 OJT 66 Enjiniring Distribusi | Powered by <a href="https://adminlte.io">AdminLTE</a>
+</footer>
   <!-- =============================================== -->

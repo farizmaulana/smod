@@ -17,8 +17,8 @@
   <!-- iCheck -->
   <link rel="stylesheet" href="<?php echo base_url('assets/AdminLTE/') ?>plugins/iCheck/square/blue.css">
   <!-- Favicon -->
-  <link rel="shortcut icon" href="<?php echo base_url('assets/custom/images/icons/favicon.ico') ?>" type="image/x-icon">
-  <link rel="icon" href="<?php echo base_url('assets/custom/images/icons/favicon.ico') ?>" type="image/x-icon" />
+  <link rel="shortcut icon" href="<?php echo base_url('assets/custom/images/icons/icon.ico') ?>" type="image/x-icon">
+  <link rel="icon" href="<?php echo base_url('assets/custom/images/icons/icon.ico') ?>" type="image/x-icon" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="<?php echo base_url('assets/custom/css/layout.css') ?>">
 

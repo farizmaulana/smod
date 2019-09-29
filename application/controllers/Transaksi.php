@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller {
+class Transaksi extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
@@ -22,13 +22,13 @@ class Dashboard extends CI_Controller {
 	{
 		$user = $this->ion_auth->user()->row();
 		
-		$data['pageTitle'] = "Dashboard";
-		$data['contents'] = 'admin/dashboard_view';
+		$data['pageTitle'] = "Transaksi Material";
+		$data['contents'] = 'admin/transaksi_view';
 		$data['user'] = $user;
-		$data['menu'] = "Dashboard";
-		$data['menu_tagline'] = "Dashboard";
-		$data['sub_menu'] = "Dashboard";
-		
+		$data['menu'] = "Manajemen Material";
+		$data['menu_tagline'] = "History Transaksi Material";
+		$data['sub_menu'] = "Transaksi Material";
+
 		$this->load->view('templates/main', $data);
 	}
 }

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller {
+class SSO extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
@@ -22,13 +22,13 @@ class Dashboard extends CI_Controller {
 	{
 		$user = $this->ion_auth->user()->row();
 		
-		$data['pageTitle'] = "Dashboard";
-		$data['contents'] = 'admin/dashboard_view';
+		$data['pageTitle'] = "Data SSO";
+		$data['contents'] = 'admin/sso_view';
 		$data['user'] = $user;
-		$data['menu'] = "Dashboard";
-		$data['menu_tagline'] = "Dashboard";
-		$data['sub_menu'] = "Dashboard";
-		
+		$data['menu'] = "Manajemen Asset";
+		$data['menu_tagline'] = "Data SSO";
+		$data['sub_menu'] = "Data SSO";
+
 		$this->load->view('templates/main', $data);
 	}
 }
